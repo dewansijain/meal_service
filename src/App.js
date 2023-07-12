@@ -1,11 +1,13 @@
 import './App.css';
+import Home from './components/Home';
 import NavigationBar from './components/NavigationBar';
 
 function App() {
 
   return (
-    <div className="fixed top-0 left-0 right-0">
-      <NavigationBar />      
+    <div className="">
+      <NavigationBar />
+      <Home />
     </div>
   );
 }
