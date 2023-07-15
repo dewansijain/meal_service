@@ -32,7 +32,7 @@ export default function NavigationBar() {
         <div className=" hidden lg:flex flex-col lg:flex-row gap-10 items-center">
           <Link activeClass='active' spy={true} to={menuItems[0].link} smooth={true} duration={1000} offset={-150} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-700">{menuItems[0].name}</Link>
           <Link activeClass='active' spy={true} to={menuItems[1].link} smooth={true} duration={1000} offset={-100} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-700">{menuItems[1].name}</Link>
-          <Link activeClass='active' spy={true} to={menuItems[2].link} smooth={true} duration={1000} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-700">{menuItems[2].name}</Link>
+          <Link activeClass='active' spy={true} to={menuItems[2].link} smooth={true} duration={1000} offset={-90} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-700">{menuItems[2].name}</Link>
           <Link activeClass='active' spy={true} to={menuItems[3].link} smooth={true} duration={1000} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-700">{menuItems[3].name}</Link>
           <Link activeClass='active' spy={true} to={menuItems[4].link} smooth={true} duration={1000} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-700">{menuItems[4].name}</Link>
         </div>
