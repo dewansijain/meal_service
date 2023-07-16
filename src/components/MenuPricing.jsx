@@ -98,7 +98,7 @@ export default function MenuPricing() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<div className="flex w-full flex-col gap-2 border-dashed border-b-2 pb-2 border-red-700 items-center">
-								<h3 className="text-xl font-bold text-red-700">One Meal Plan</h3>
+								<h3 className="text-xl font-bold text-red-700">Two Meal Plan</h3>
 								<p className="text-lg">Only lunch or only dinner delivered to you</p>
 							</div>
 							<div className="flex w-full flex-row justify-between gap-2 border-dashed border-b-2 pb-2 border-red-700 items-center">
