@@ -10,18 +10,24 @@ export default function Contact() {
       GET IN TOUCH
       </h2>
       <div className='flex flex-col lg:flex-row gap-10 w-full items-center justify-center'>
+        <a href='https://wa.me/+916201567901' rel="noreferrer" target='_blank' className="flex hover:scale-105 active:scale-95 flex-col flex-1 gap-10 items-center justify-center">
         <div className='flex flex-col flex-1 gap-6 lg:gap-10 items-center justify-center'>
           <img src={image_3} alt="call" className=' w-24 h-auto lg:w-auto lg:h-52'/>
           <p className='text-xl font-normal bg-gray-300 p-2 px-4 lg:p-4 lg:px-6 rounded-full shadow-lg drop-shadow-md'>+91-6201567901</p>
         </div>
-        <div className='flex flex-col flex-1 gap-10 items-center justify-center'>
+        </a>
+       <a href='mailto:info@momimeals.com' rel="noreferrer" target='_blank' className="flex hover:scale-105 active:scale-95 flex-col flex-1 gap-10 items-center justify-center">
+       <div className='flex flex-col flex-1 gap-6 lg:gap-10 items-center justify-center'>
           <img src={image_2} alt="call" className=' w-24 h-auto lg:w-auto lg:h-52'/>
           <p className='text-xl font-normal bg-gray-300 p-2 px-4 lg:p-4 lg:px-6 rounded-full shadow-lg drop-shadow-md'>info@momimeals.com</p>
         </div>
-        <div className='flex flex-col flex-1 gap-10 items-center justify-center'>
+        </a>
+        <a href='tel:+916201567901' rel="noreferrer" target='_blank' className="flex hover:scale-105 active:scale-95 flex-col flex-1 gap-10 items-center justify-center">
+        <div className='flex flex-col flex-1 gap-6 lg:gap-10 items-center justify-center'>
           <img src={image_1} alt="call" className=' w-24 h-auto lg:w-auto lg:h-52'/>
           <p className='text-xl font-normal bg-gray-300 p-2 px-4 lg:p-4 lg:px-6 rounded-full shadow-lg drop-shadow-md'>+91-6201567901</p>
         </div>
+        </a>
         </div>
 
     </div>
