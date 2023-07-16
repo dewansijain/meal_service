@@ -4,7 +4,7 @@ import style from './Footer.module.css'
 export default function Footer() {
   return (
     <div className={style.bgImage}>
-      <div className="px-5 flex pt-32 pb-28 lg:px-20 bg-stone-900/75 flex-row gap-16 justify-between" >
+      <div className="px-5 flex pt-32 pb-28 lg:px-20 bg-stone-900/75 flex-col lg:flex-row gap-16 justify-between" >
         <div className='flex flex-col w-7/12 gap-10 items-center justify-center'>
           <h2 className='text-white text-left text-5xl font-black self-start'>
             The Story Behind Momimeals!
