@@ -17,7 +17,7 @@ export default function PricingPopUp({ assignData, setPopupVisible }) {
       duration={0.5}
       transition={{ type: 'spring', stiffness: 100 }}
     className='flex flex-col gap-5 items-center justify-center fixed top-0 left-0 w-full h-screen z-50 backdrop-blur-md'>
-      <div className='flex relative flex-col gap-5 items-center h-screen w-screen justify-center bg-white/60 lg:bg-white/90 p-3 lg:p-10 lg:rounded-2xl'>
+      <div className='flex relative flex-col gap-5 items-center h-screen w-screen lg:h-auto lg:w-auto justify-center bg-white/60 lg:bg-white/90 p-3 lg:p-10 lg:rounded-2xl'>
         <GiCrossMark className='absolute top-5 right-5 text-3xl text-red-700 cursor-pointer' onClick={() => setPopupVisible(false)} />
         <h1 className='text-2xl lg:text-5xl font-bold text-red-700'>{assignData.day}</h1>
         <div className='flex flex-col lg:flex-row gap-2 lg:gap-5 overflow-y-auto px-3'>

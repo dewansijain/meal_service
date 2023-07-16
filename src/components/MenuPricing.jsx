@@ -2,7 +2,6 @@ import React from 'react'
 import meal_1 from '../assets/meal_1.png'
 import meal_2 from '../assets/meal_2.png'
 import PricingPopUp from './PricingPopUp'
-import { AnimatePresence } from 'framer-motion'
 
 export default function MenuPricing() {
 	const data = [
@@ -17,15 +16,13 @@ export default function MenuPricing() {
 	const [assignData, setAssignData] = React.useState(data[0])
 	const [popupVisible, setPopupVisible] = React.useState(false)
 	const handleClick = (index) => {
-		setAssignData(data[index])
 		setPopupVisible(true)
+		setAssignData(data[index])
 	}
 
 	return (
 		<div className="px-5 py-10 lg:px-20 bg-red-700 flex flex-col lg:flex-row gap-10" id='menu'>
-			<AnimatePresence>
 			{popupVisible && <PricingPopUp assignData={assignData} setPopupVisible={setPopupVisible} />}
-			</AnimatePresence>
 			<div className='flex p-10 flex-1 bg-white rounded-lg flex-col justify-between items-center gap-8'>
 				<h2 className='text-3xl font-bold text-red-700 text-center lg:text-left'>Choose your favourite meal everyday!</h2>
 				<div className="flex flex-row flex-wrap gap-6 flex-1 justify-center items-center">
