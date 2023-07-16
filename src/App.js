@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './components/Contact';
 import Home from './components/Home';
 import HowWeWOrk from './components/HowWeWork';
 import MenuPricing from './components/MenuPricing';
@@ -14,6 +15,7 @@ function App() {
       <MenuPricing />
       <HowWeWOrk />
       <WhyUs />
+      <Contact />
     </div>
   );
 }
