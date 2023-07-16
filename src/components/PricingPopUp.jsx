@@ -20,7 +20,7 @@ export default function PricingPopUp({ assignData, setPopupVisible }) {
       <div className='flex relative flex-col gap-5 items-center h-screen w-screen lg:h-auto lg:w-auto justify-center bg-white/60 lg:bg-white/90 p-3 lg:p-10 lg:rounded-2xl'>
         <GiCrossMark className='absolute top-5 right-5 text-3xl text-red-700 cursor-pointer' onClick={() => setPopupVisible(false)} />
         <h1 className='text-2xl lg:text-5xl font-bold text-red-700'>{assignData.day}</h1>
-        <div className='flex flex-col lg:flex-row gap-2 lg:gap-5 overflow-y-auto px-3'>
+        <div className='flex flex-col lg:flex-row gap-2 lg:gap-5 overflow-y-auto overflow-x-hidden px-3'>
           <div className='flex flex-col flex-1 gap-5 bg-red-700 p-5 rounded-3xl'>
             <h2 className=' text-lg lg:text-2xl text-center font-semibold text-white'>Lunch</h2>
             <div className='flex flex-col gap-2 flex-1 justify-between'>
@@ -64,6 +64,7 @@ export default function PricingPopUp({ assignData, setPopupVisible }) {
             </div>
           </div>
         </div>
+        <p className='text-sm lg:text-lg max-w-4xl flex'>*Every week, you will be asked to choose your meal from the above options. So, you don't have to settle on just one meal. You can try all of them!</p>
       </div>
     </motion.div>
   )
