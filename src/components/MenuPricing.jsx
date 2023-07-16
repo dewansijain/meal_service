@@ -99,34 +99,34 @@ export default function MenuPricing() {
 						<div className="flex flex-col gap-2">
 							<div className="flex w-full flex-col gap-2 border-dashed border-b-2 pb-2 border-red-700 items-center">
 								<h3 className="text-xl font-bold text-red-700">Two Meal Plan</h3>
-								<p className="text-lg">Only lunch or only dinner delivered to you</p>
+								<p className="text-lg">Both lunch & dinner delivered to you</p>
 							</div>
 							<div className="flex w-full flex-row justify-between gap-2 border-dashed border-b-2 pb-2 border-red-700 items-center">
 								<div className="flex flex-col gap-1">
 									<p className='text-red-700 font-bold'>3 Days</p>
 								</div>
-								<p className='font-semibold'>₹195/-</p>
+								<p className='font-semibold'>₹360/-</p>
 							</div>
 							<div className="flex w-full flex-row justify-between gap-2 border-dashed border-b-2 pb-2 border-red-700 items-center">
 								<div className="flex flex-col gap-1">
 									<p className='text-red-700 font-bold'>7 Days</p>
 									<p className='bg-red-200 text-red-700 px-1 rounded-md font-semibold'>5% Off</p>
 								</div>
-								<p className='font-semibold'>₹432/-</p>
+								<p className='font-semibold'>₹798/-</p>
 							</div>
 							<div className="flex w-full flex-row justify-between gap-2 border-dashed border-b-2 pb-2 border-red-700 items-center">
 								<div className="flex flex-col gap-1">
 									<p className='text-red-700 font-bold'>15 Days</p>
 									<p className='bg-red-200 text-red-700 px-1 rounded-md font-semibold'>10% Off</p>
 								</div>
-								<p className='font-semibold'>₹823/-</p>
+								<p className='font-semibold'>₹1620/-</p>
 							</div>
 							<div className="flex w-full flex-row justify-between gap-2 border-dashed border-b-2 pb-2 border-red-700 items-center">
 								<div className="flex flex-col gap-1">
 									<p className='text-red-700 font-bold'>1 Month</p>
 									<p className='bg-red-200 text-red-700 px-1 rounded-md font-semibold'>25% Off</p>
 								</div>
-								<p className='font-semibold'>₹1463/-</p>
+								<p className='font-semibold'>₹2700/-</p>
 							</div>
 						</div>
 					</div>
