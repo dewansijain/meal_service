@@ -1,5 +1,6 @@
 import './App.css';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import HowWeWOrk from './components/HowWeWork';
 import MenuPricing from './components/MenuPricing';
@@ -16,6 +17,7 @@ function App() {
       <HowWeWOrk />
       <WhyUs />
       <Contact />
+      <Footer />
     </div>
   );
 }

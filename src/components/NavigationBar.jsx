@@ -28,13 +28,13 @@ export default function NavigationBar() {
         </div>
       </div>
       <div className="flex flex-row justify-between items-center px-5 lg:px-20 py-4 shadow-md">
-        <h1 className="text-4xl font-bold text-red-700">momimeals</h1>
+      <Link spy={true} to={menuItems[0].link} smooth={true} duration={1000} offset={-150} className="text-4xl font-bold cursor-pointer text-red-700">momimeals</Link>
         <div className=" hidden lg:flex flex-col lg:flex-row gap-10 items-center">
-          <Link activeClass='active' spy={true} to={menuItems[0].link} smooth={true} duration={1000} offset={-150} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[0].name}</Link>
-          <Link activeClass='active' spy={true} to={menuItems[1].link} smooth={true} duration={1000} offset={-100} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[1].name}</Link>
-          <Link activeClass='active' spy={true} to={menuItems[2].link} smooth={true} duration={1000} offset={-90} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[2].name}</Link>
-          <Link activeClass='active' spy={true} to={menuItems[3].link} smooth={true} duration={1000} offset={-90} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[3].name}</Link>
-          <Link activeClass='active' spy={true} to={menuItems[4].link} smooth={true} duration={1000} offset={-100} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[4].name}</Link>
+          <Link activeClass='activestatus' spy={true} to={menuItems[0].link} smooth={true} duration={1000} offset={-150} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[0].name}</Link>
+          <Link activeClass='activestatus' spy={true} to={menuItems[1].link} smooth={true} duration={1000} offset={-100} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[1].name}</Link>
+          <Link activeClass='activestatus' spy={true} to={menuItems[2].link} smooth={true} duration={1000} offset={-90} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[2].name}</Link>
+          <Link activeClass='activestatus' spy={true} to={menuItems[3].link} smooth={true} duration={1000} offset={-90} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[3].name}</Link>
+          <Link activeClass='activestatus' spy={true} to={menuItems[4].link} smooth={true} duration={1000} offset={-90} className="text-xl cursor-pointer hover:text-red-700 transition-all duration-00">{menuItems[4].name}</Link>
         </div>
         <div className="cursor-pointer lg:hidden flex flex-col gap-1.5 items-center z-50 justify-center" onClick={handleHamburger}>
           <span className={`w-8 border-b-4 border-gray-600 rounded-sm transition-all duration-00 ${show ? 'transform rotate-45 translate-y-2.5' : ''}`} />
