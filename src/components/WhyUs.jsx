@@ -35,7 +35,7 @@ export default function WhyUs() {
           <p className='text-black text-sm'>We prioritize cleanliness and hygiene, taking rigorous safety measures to eliminate any risk of contamination. Our kitchen undergoes thorough cleaning and disinfection twice a day, complemented by regular pest-control treatments. When it comes to packaging, we use BPA-free and microwave-friendly containers to ensure the highest standards of food safety.</p>
         </div>
       </div>
-      <div className="flex flex-row flex-wrap gap-6 flex-1 justify-center items-stretch">
+      <div className="flex flex-col lg:flex-row gap-6 flex-1 justify-center items-stretch">
         <div className="flex flex-col gap-2 lg:gap-5 flex-1 bg-white p-7 rounded-semi-full items-center">
           <div className="flex flex-row gap-1 lg:gap-5 justify-center w-full items-center">
             <img src={image_4} alt="why_us_1" className="w-10 h-12 rounded-lg" />

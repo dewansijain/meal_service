@@ -5,10 +5,10 @@ import PricingPopUp from './PricingPopUp'
 
 export default function MenuPricing() {
 	const data = [
-		{day: 'Monday',lunch :{option1:'3 Roti, Rice,Dal, Aaloo Beans, salad', option2:'Zeera Rice, Dum Aaloo, salad', option3:'Channa Masala, 8 Puri, Bundi Raita', option4:'3 Sattu Paratha, Aaloo Channa ki Sabzi, Aachar'}, dinner: {option1:'', option2:'', option3:'', option4:'3 Chapatti, Curry Pakoda, Aachar, Salad'}},
-		{day: 'Tuesday',lunch :{option1:'3 Aaloo Paratha, Dahi, Achar, Ketchup', option2:'3 Roti, Dal, Aaloo Bhujia, Rice, Aachar', option3:'2 Missi Roti, 2 Plain Roti, Curry, Zeera Aaloo', option4:'2 Roti, Matar Pulao, Tadka Dal'}, dinner: {option1:'6 Puri, Matar Paneer, Aachar', option2:'Pav Bhaji', option3:'', option4:'3 Chapatti, Shahi Paneer, Aachar'}},
-		{day: 'Wednesday',lunch :{option1:'Tava Pulao, Gatte ki sabzi, 2 Plain Roti, Pyaz', option2:'Chola Chawal, Salad, Aachar', option3:'3 Roti, Rice, Dal, Seasonal Sabzi', option4:'Chola, 8 Puri, Bundi Raita'}, dinner: {option1:'Channa Masala, Zeera Rice, Pyaz, Aachar', option2:'6 Puri, Channa, Kheer', option3:'', option4:'3 Chapatti, Channa Masala, Aachar'}},
-		{day: 'Thursday',lunch :{option1:'3 Veg Paratha, Bundi Raita, Ketchup', option2:'Rajma Chawal, Salad, Aachar', option3:'Vegetable Pulao with Dal Fry, Aachar, Salad', option4:'3 Roti, Dal, Mix Veg, Salad'}, dinner: {option1:'', option2:'', option3:'Chinese Frankie', option4:'3 Chapatti, Achari Aaloo, Salad'}},
+		{day: 'Monday',lunch :{option1:'3 Roti, Rice,Dal, Aaloo Beans, salad', option2:'Zeera Rice, Dum Aaloo, salad', option3:'Channa Masala, 8 Puri, Bundi Raita', option4:'3 Sattu Paratha, Aaloo Channa ki Sabzi, Aachar'}, dinner: {option1:'6 Puri, Channa, Kheer', option2:'3 Chapatti, Mix Veg Gravy, Aachar', option3:'Vegetable Pulao with Dal Makhni and Salad', option4:'3 Chapatti, Gatte ki Sabzi, Aachar, Salad'}},
+		{day: 'Tuesday',lunch :{option1:'3 Aaloo Paratha, Dahi, Achar, Ketchup', option2:'3 Roti, Dal, Aaloo Bhujia, Rice, Aachar', option3:'2 Missi Roti, 2 Plain Roti, Curry, Zeera Aaloo', option4:'2 Roti, Matar Pulao, Tadka Dal'}, dinner: {option1:'6 Puri, Matar Paneer, Aachar', option2:'Pav Bhaji', option3:'Cheese Pasta', option4:'3 Chapatti, Shahi Paneer, Aachar'}},
+		{day: 'Wednesday',lunch :{option1:'Tava Pulao, Gatte ki sabzi, 2 Plain Roti, Pyaz', option2:'Chola Chawal, Salad, Aachar', option3:'3 Roti, Rice, Dal, Seasonal Sabzi', option4:'Chola, 8 Puri, Bundi Raita'}, dinner: {option1:'Channa Masala, Zeera Rice, Pyaz, Aachar', option2:'3 Sattu Paratha, Aaloo ka Chokha, Chutney', option3:'Rajma Masala, Pulao, Salad', option4:'3 Chapatti, Channa Masala, Aachar'}},
+		{day: 'Thursday',lunch :{option1:'3 Veg Paratha, Bundi Raita, Ketchup', option2:'Rajma Chawal, Salad, Aachar', option3:'Vegetable Pulao with Dal Fry, Aachar, Salad', option4:'3 Roti, Dal, Mix Veg, Salad'}, dinner: {option1:'2 Pc Veg Taco Wraps', option2:'3 Paneer Onion Paratha, Dahi, Aachar', option3:'Chinese Frankie', option4:'3 Chapatti, Achari Aaloo, Salad'}},
 		{day: 'Friday',lunch :{option1:'2 Roti, Matar Pulao, Tadka Dal', option2:'3 Roti, Dal, Aaloo matar, Aachar', option3:'3 Sattu Paratha, Chutney, Aachar', option4:'Dal, Baati, Aaloo ka chokha, Chutney'}, dinner: {option1:'Moong Dal ka Cheela, Chutney, Aachar', option2:'Idly, Sambhar, Chutney', option3:'Dal Makhni, Veg Pulao, Salad', option4:'3 Chapatti, Seasonal Sabzi, Aachar'}},
 		{day: 'Saturday',lunch :{option1:'3 Roti, Dal,Rice, Mix Veg, Aachar', option2:'Plain Rice, Dal Fry with Mix Veg', option3:'3 Aaloo Paratha, Dahi, Achar, Ketchup', option4:'Masala Khichdi, Aaloo ka chokha, Aachar'}, dinner: {option1:'Pav Bhaji', option2:'Masala Frankie', option3:'Litti Chokha, Chutney, Pyaz', option4:'3 Chapatti, Gravy Aaloo, Aachar'}},
 		{day: 'Sunday',lunch :{option1:'3 Roti, Rice, Dal, Seasonal Sabzi', option2:'3 Paneer Paratha, Hari Chutney, Aachar', option3:'3 Tandoori Roti, Paneer Butter Masala, Pyaz', option4:'Chhole Bhature, Pyaz'}, dinner: {option1:'Manchurian, Fried Rice', option2:'1 Veg Roll, Macroni', option3:'Manchurian, Chowmin', option4:'3 Chapatti, MixVeg, Salad'}},
@@ -129,7 +129,7 @@ export default function MenuPricing() {
 						</div>
 					</div>
 				</div>
-				<a href='https://wa.me/+916201567901' rel="noreferrer" target='_blank' className="bg-white hover:scale-105 active:scale-95 text-red-700 px-10 py-2 text-2xl rounded-full">Order Now</a>
+				<a href='https://wa.me/+918340596082' rel="noreferrer" target='_blank' className="bg-white hover:scale-105 active:scale-95 text-red-700 px-10 py-2 text-2xl rounded-full">Order Now</a>
 			</div>
 		</div>
 	)
