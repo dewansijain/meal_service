@@ -19,7 +19,7 @@ export default function Footer() {
           </h2>
           <div className='flex flex-col gap-2 justify-center'>
             <p className='text-white w-fit text-xl font-normal'>
-              <strong>Phone:</strong> +91-6201567901
+              <strong>Phone:</strong> +91-8340596082
             </p>
             <p className='text-white text-xl font-normal'>
               <strong>Email:</strong> info@momimeals.com

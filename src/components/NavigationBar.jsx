@@ -21,9 +21,9 @@ export default function NavigationBar() {
           </a>
         </div>
         <div className="flex flex-col lg:flex-row justify-between items-center">
-          <a className="text-md flex flex-row gap-2 justify-between items-center text-sm lg:text-lg" href="tel:+91-6201567901" target='_blank' rel="noreferrer">
+          <a className="text-md flex flex-row gap-2 justify-between items-center text-sm lg:text-lg" href="tel:+918340596082" target='_blank' rel="noreferrer">
             <BsTelephoneFill className="lg:text-2xl hover:scale-105" />
-            +91-6201567901
+            +91-8340596082
           </a>
         </div>
       </div>
