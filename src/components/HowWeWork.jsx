@@ -44,7 +44,7 @@ export default function HowWeWork() {
           </p>
         </div>
       </div>
-      <a href='https://wa.me/+918340596082' rel="noreferrer" target='_blank' className="bg-red-700 hover:scale-105 active:scale-95 text-white px-12 py-4 text-3xl font-bold self-center rounded-full">Order Now</a>
+      <a href='https://wa.me/message/C4VSUMVP2AIZC1' rel="noreferrer" target='_blank' className="bg-red-700 hover:scale-105 active:scale-95 text-white px-12 py-4 text-3xl font-bold self-center rounded-full">Order Now</a>
     </div>
   )
 }

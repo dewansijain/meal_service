@@ -129,7 +129,7 @@ export default function MenuPricing() {
 						</div>
 					</div>
 				</div>
-				<a href='https://wa.me/+918340596082' rel="noreferrer" target='_blank' className="bg-white hover:scale-105 active:scale-95 text-red-700 px-10 py-2 text-2xl rounded-full">Order Now</a>
+				<a href='https://wa.me/message/C4VSUMVP2AIZC1' rel="noreferrer" target='_blank' className="bg-white hover:scale-105 active:scale-95 text-red-700 px-10 py-2 text-2xl rounded-full">Order Now</a>
 			</div>
 		</div>
 	)
