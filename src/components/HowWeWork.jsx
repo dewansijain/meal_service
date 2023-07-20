@@ -40,7 +40,7 @@ export default function HowWeWork() {
         </div>
         <div className={`flex flex-col items-center justify-center w-60 h-60 gap-5 ${style.image1}`}>
           <p className='text-center text-sm p-8'>
-          <span className='text-red-700 font-semibold '>Choose your favourite meals </span> rom our menu and enjoy.
+          <span className='text-red-700 font-semibold '>Choose your favourite meals </span> from our menu and enjoy.
           </p>
         </div>
       </div>
