@@ -32,7 +32,7 @@ export default function WhyUs() {
             <img src={image_3} alt="why_us_1" className="w-10 h-10 rounded-lg" />
             <h3 className='font-bold text-red-700 text-xl lg:text-2xl flex-1 lg:text-center'>Hygiene & Packaging</h3>
           </div>
-          <p className='text-black text-sm'>We prioritize cleanliness and hygiene, taking rigorous safety measures to eliminate any risk of contamination. Our kitchen undergoes thorough cleaning and disinfection twice a day, complemented by regular pest-control treatments. When it comes to packaging, we use BPA-free and microwave-friendly containers to ensure the highest standards of food safety.</p>
+          <p className='text-black text-sm'>We prioritize cleanliness and hygiene, taking rigorous safety measures to eliminate any risk of contamination. Our kitchen undergoes thorough cleaning and disinfection twice a day, complemented by regular pest-control treatments. When it comes to packaging, we use BPA-free containers to ensure the highest standards of food safety.</p>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-6 flex-1 justify-center items-stretch">
