@@ -3,7 +3,7 @@ import image from '../assets/momimeals_website_1.png'
 
 export default function Home() {
   return (
-    <div className="px-5 py-10 lg:px-20" id='home'>
+    <div className="px-5 py-20 pt-40 lg:px-20" id='home'>
       <div className='flex flex-col lg:flex-row justify-between items-center gap-5 lg:gap-20'>
         <div className="flex flex-col gap-5 lg:gap-10 flex-1 order-2 lg:order-1">
           <h1 className=" text-3xl text-center lg:text-left lg:text-6xl font-bold text-red-700">Missing Mom's Food in the New City?</h1>
